@@ -1,0 +1,75 @@
+.sidebar-total-container{
+background-color: rgba(0, 0, 0, 0.425);
+position: fixed;
+z-index: 10000;
+    height: 100%;
+    width: 100%;
+  
+}
+.show{
+transform: translateX(0);
+background-color: rgb(236, 236, 253);
+position: fixed;
+width: 70%;
+z-index: 10000;
+height: 100%;
+transition: 0.3s all linear;
+}
+.sidebar-container{
+    background-color: rgb(236, 236, 253);
+    position: fixed;
+    width: 70%;
+    z-index: 10000;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: 0.3s all linear;
+    
+}
+.times-icon{
+    color: red;
+    margin-left: auto;
+    margin-right: 1cm;
+    font-size: 0.8cm;
+    cursor: pointer;
+}
+.sidebar-items-container{
+    margin-top: 0.5cm;
+}
+.sidebar-nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sidebar-item{
+    font-size: 0.5cm;
+    text-align: left;
+    font-weight: 600;
+    margin: 0%;
+    padding: 0.3cm 1cm;
+}
+.sidebar-item:hover{
+    background-color:rgba(0, 132, 255, 0.63);   
+    cursor: pointer;
+}
+.sidebar-button{
+    background-color: transparent;
+    color:  rgb(255, 0, 85);
+    border-radius: 25px;
+    padding: 0.2cm;
+    font-size: 0.4cm;
+    font-weight: 600;
+    border: none;
+    margin-top:1cm;
+    box-shadow: 2px 2px 2px gray,2px 2px 2px white inset ;
+    transition: 0.3s all linear;
+}
+.sidebar-button:hover{
+    cursor: pointer;
+    color: rgb(0, 132, 255);
+    padding: 0.3cm;
+}
+@media screen and (max-width:500px){
+    .sidebar-item{
+        font-size: 0.45cm;
+    }
+}

@@ -1,0 +1,106 @@
+.navbar-container{
+position: sticky;
+top: 0px; 
+background-image: var(--clr-bcg-img);
+box-shadow: var(--clr-box-shadow);
+    z-index: 9000;
+    height: 1.3cm;
+}
+.nav-image{
+    width: 1cm;
+    height: 1cm;
+    border-radius: 50%
+}
+.image-container-div{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    align-items: center;
+    gap: 0.25cm;
+    margin-left: 2cm;
+    margin-top: -0.15cm;
+}
+.nav-items-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-left: auto;
+    margin-right: 2cm;
+}
+.nav-item{
+    font-weight: 600;
+    color: var( --clr-primary);
+    font-size: 0.4cm;
+}
+.nav-item:hover{
+    color: rgb(0, 132, 255);
+    cursor: pointer;
+}
+.nav-button{
+    background-color: transparent;
+    color:  rgb(255, 0, 85);
+    border-radius: 25px;
+    padding: 0.2cm;
+    font-size: 0.4cm;
+    font-weight: 600;
+    border: none;
+    box-shadow: var(--clr-box-shadow);
+    transition: 0.3s all linear;
+    float: right;
+}
+.nav-button:hover{
+    cursor: pointer;
+    color: rgb(0, 132, 255);
+    padding: 0.22cm;
+}
+.bars-icon{
+    display: none;
+}
+.mode-icons{
+    position: absolute;
+    top: 0;
+    right: 1cm;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    font-size: 0.5cm;
+    border-radius: 50%;
+    background-image: var(--clr-bcg-img);
+    box-shadow: var(--clr-box-shadow);
+    color: var( --clr-primary)
+}
+
+@media screen and (max-width:1250px){
+    .nav-items-container{
+        display: none;
+    }
+    .bars-icon{
+        display: flex;
+        font-size: 0.8cm;
+        align-items: center;
+        margin-left:auto;
+        margin-right: 2.5cm;
+        padding: 0.2cm;
+        color: var( --clr-primary);
+    }
+}
+@media screen and (max-width:500px){
+.image-container-div{
+    margin-left: 0.5cm;
+}
+.mode-icons{
+    right: 0.5cm;
+    width: 32px;
+    height: 32px;
+}
+.bars-icon{
+    margin-right: 1.5cm;
+}
+}
