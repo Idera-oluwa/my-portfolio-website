@@ -28,11 +28,14 @@ const Contact = () => {
                      </div>
                    </div>
                 </div>
-                <div className='form-container' id='contact'>
+                <form className='form-container' id='contact'
+                action="https://formspree.io/f/xbjbwznw"
+                method="POST"
+                >
                 <div className='form-name-email'>
                     <div className='form-item'>
                         <label htmlFor='name'>YOUR NAME</label>
-                        <input className='input-text' type='text' name='name'/>
+                        <input className='input-text' type='text' name='name' required/>
                     </div>
                     <div className='form-item'>
                         <label htmlFor='phone'>PHONE NUMBER</label>
@@ -41,7 +44,7 @@ const Contact = () => {
                 </div>
                 <div className='form-item-2'>
                         <label htmlFor='email'>EMAIL</label>
-                        <input type='text' className='input-text' name='email'/>
+                        <input type='text' className='input-text' name='email' required/>
                     </div>
                     <div className='form-item-2'>
                         <label htmlFor='subject'>SUBJECT</label>
@@ -49,10 +52,10 @@ const Contact = () => {
                     </div>
                     <div className='form-item-2'>
                         <label htmlFor='message'>YOUR MESSAGE</label>
-                        <textarea className='input-text text-area' name='message'/>
+                        <textarea className='input-text text-area' name='message' required/>
                     </div>
-                    <button className='contact-form-button'>SEND MESSAGE</button>
-                </div>
+                    <button className='contact-form-button' type='submit'>SEND MESSAGE</button>
+                </form>
             </div>
         </div>
     )

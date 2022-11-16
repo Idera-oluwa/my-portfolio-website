@@ -21,7 +21,6 @@ const Sidebar=({hideSidebar,show}) =>{
                 <Link  to="languages" spy={true} smooth={true} ><p className='sidebar-item' onClick={hideSidebar}>LANGUAGES</p></Link>
                 <Link  to="portfolio" spy={true} smooth={true}><p className='sidebar-item' onClick={hideSidebar}>PORTFOLIO</p></Link>
                 <Link  to="testimonial" spy={true} smooth={true}><p className='sidebar-item' onClick={hideSidebar}>TESTIMONIAL</p></Link>
-                <p className='sidebar-item'>BLOG</p>
                 <Link  to="contacts" spy={true} smooth={true}><p className='sidebar-item' onClick={hideSidebar}>CONTACTS</p></Link>
                 <Link  to="contacts" spy={true} smooth={true}><button className='sidebar-button' onClick={hideSidebar}>ORDER NOW</button></Link>
             </div>

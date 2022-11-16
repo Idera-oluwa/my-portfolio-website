@@ -17,7 +17,6 @@ const Navbar = ({showSidebar,show,toggle,handleToggle}) => {
                 <p className='nav-item'><Link  to="languages" spy={true} smooth={true}>LANGUAGES</Link></p>
                 <p className='nav-item'><Link  to="portfolio" spy={true} smooth={true}>PORTFOLIO</Link></p>
                 <p className='nav-item'><Link  to="testimonial" spy={true} smooth={true}>TESTIMONIAL</Link></p>
-                <p className='nav-item'>BLOG</p>
                 <p className='nav-item'><Link  to="contacts" spy={true} smooth={true}>CONTACTS</Link></p>
                 <button className='nav-button'><Link  to="contacts" spy={true} smooth={true}>ORDER NOW</Link></button>
             </div>

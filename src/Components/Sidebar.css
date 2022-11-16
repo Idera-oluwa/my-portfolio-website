@@ -8,7 +8,8 @@ z-index: 10000;
 }
 .show{
 transform: translateX(0);
-background-color: rgb(236, 236, 253);
+background-image: var(--clr-bcg-img);
+box-shadow: var(--clr-box-shadow);
 position: fixed;
 width: 70%;
 z-index: 10000;
@@ -16,7 +17,8 @@ height: 100%;
 transition: 0.3s all linear;
 }
 .sidebar-container{
-    background-color: rgb(236, 236, 253);
+    background-image: var(--clr-bcg-img);
+    box-shadow: var(--clr-box-shadow);
     position: fixed;
     width: 70%;
     z-index: 10000;
@@ -60,7 +62,8 @@ transition: 0.3s all linear;
     font-weight: 600;
     border: none;
     margin-top:1cm;
-    box-shadow: 2px 2px 2px gray,2px 2px 2px white inset ;
+    background-image: var(--clr-bcg-img);
+    box-shadow: var(--clr-box-shadow);
     transition: 0.3s all linear;
 }
 .sidebar-button:hover{

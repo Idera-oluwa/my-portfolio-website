@@ -42,7 +42,7 @@ export const portfolioData=[
         id:2,
         img:'Images/ammi-store.png',
         text:'visit website',
-        likes:'189',
+        likes:'289',
         link:'https://ammistore.000webhostapp.com/',
         title:'E-commerce Website Application'
     },
@@ -56,16 +56,17 @@ export const portfolioData=[
     },
     {
         id:4,
-        img:'Images/ScreenShot (21).png',
+        img:'Images/ScreenShot (52).png',
         text:'visit website',
-        likes:'200',
-        title:'E-commerce website application'
+        likes:'300',
+        link:'https://derah-blog.netlify.app/',
+        title:'Blog Web Application'
     },
     {
         id:5,
         img:'Images/github-user.png',
         text:'visit website',
-        likes:'161',
+        likes:'261',
         link:'https://derah-search-github-users.netlify.app/',
         title:'Search Github User'
     },
@@ -73,7 +74,7 @@ export const portfolioData=[
         id:6,
         img:'Images/landing-page-1.png',
         text:'visit website',
-        likes:'207',
+        likes:'287',
         link:'https://derah-landingpage-1.netlify.app/',
         title:'Food Splash Landing Page'
     }
@@ -87,7 +88,7 @@ export const reviews = [
         date:'Developers Team Jan 2022',
         image:'https://media.istockphoto.com/id/1369199360/photo/portrait-of-a-handsome-young-businessman-working-in-office.jpg?b=1&s=170667a&w=0&k=20&c=9cS9Dj2jKbJGqfI0X0U-jZNURFc-foLzDm1Ls-Q_fgo=',
         word:'Best Service Ever',
-        text:'Isa Zainab is AMAZING and very professional, I hired them to build my website, and they did an EXCELLENT JOB, they also did an EXCELLENT JOB in SEO on my website, and I could get many new customers for my business. They also taught me to manage my website to make all kind of changes with my administration. If you want to get more customers for your business, call Isa Zainab, will be the best invested money for your business. Once again, THANK YOU VERY MUCH. ',
+        text:'Isa Zainab is AMAZING and very professional, I hired her to build my website, and she did an EXCELLENT JOB, she also did an EXCELLENT JOB in SEO on my website, and I could get many new customers for my business. She also taught me to manage my website to make all kind of changes with my administration. If you want to get more customers for your business, call Isa Zainab, will be the best invested money for your business. Once again, THANK YOU VERY MUCH. ',
     },
     {
         id:2,
@@ -107,7 +108,7 @@ export const reviews = [
         date:'Styley Oct 2021',
         image:'https://akm-img-a-in.tosshub.com/businesstoday/images/story/201506/10gadgets-for-businessman_6_052915012252.jpg',
         word:'Very Nice Meal',
-        text:"A Website mirrors the company identity, That gives it a face and a soul. Isa Zainab did that for my company They instantly knew what we wanted to accomplish, they were fast, responsive and relatively affordable. The final product was very functional, tasteful and aesthetically nice to look at. We already recommended them to other customers and I think that would be the best testimonial and the ultimate recognition."
+        text:"A Website mirrors the company identity, That gives it a face and a soul. Isa Zainab did that for my company She instantly knew what we wanted to accomplish, she was fast, responsive and relatively affordable. The final product was very functional, tasteful and aesthetically nice to look at. We already recommended her to other customers and I think that would be the best testimonial and the ultimate recognition."
     },
     {
         id:4,
