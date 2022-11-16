@@ -14,19 +14,9 @@ const Hero = () => {
             Passionate about going the extra mile to ensure the customer is unquestionably satisfied with the service provided.</p>
            <div className='hero-cards-total-container'>
                <div className='hero-cards-container'>
-                   <h3 className='hero-cards-text'>FIND ME ON</h3>
-                   <div className='hero-cards'>
-                     <div className='hero-card'>
-                     <FiFacebook className='hero-card-icon'/>
-                     </div>
-                     <div className='hero-card'>
-                     <FiTwitter className='hero-card-icon'/>
-                     </div>
-                     <div className='hero-card'>
-                     <FiLinkedin className='hero-card-icon'/>
-                     </div>
+                   <h3 className='hero-cards-text'>DOWNLOAD RESUME</h3>
+                   <button className='download-resume'>DOWNLOAD</button>
                    </div>
-               </div>
                <div className='hero-cards-container'>
                    <h3  className='hero-cards-text'>BEST SKILL ON</h3>
                    <div className='hero-cards'>

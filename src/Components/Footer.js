@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import {FiFacebook,FiTwitter,FiLinkedin} from 'react-icons/fi';
+import {Link} from 'react-scroll'
 
 const Footer = () => {
     return (
@@ -25,11 +26,10 @@ const Footer = () => {
             </div>
             <div className='grid'>
                 <h3 className='footer-item-heading'>QUICK LINK</h3>
-                <p className='footer-item-text'>About</p>
-                <p className='footer-item-text'>Portfolio</p>
-                <p className='footer-item-text'>Services</p>
-                <p className='footer-item-text'>Blog</p>
-                <p className='footer-item-text'>Contact</p>
+                <p className='footer-item-text'><Link  to="home" spy={true} smooth={true}>About</Link></p>
+                <p className='footer-item-text'><Link  to="portfolio" spy={true} smooth={true}>Portfolio</Link></p>
+                <p className='footer-item-text'><Link  to="features" spy={true} smooth={true}>Services</Link></p>
+                <p className='footer-item-text'><Link  to="contacts" spy={true} smooth={true}>Contact</Link></p>
             </div>
             <div className='grid'>
                 <h3 className='footer-item-heading'>RESOURCES</h3>
@@ -41,11 +41,11 @@ const Footer = () => {
             </div>
             <div className='grid'>
                 <h3 className='footer-item-heading'>DEVELOPERS</h3>
-                <p className='footer-item-text'>Documentation</p>
+                <p className='footer-item-text'><a href='https://github.com/Idera-oluwa/my-portfolio-website'>Documentation</a></p>
                 <p className='footer-item-text'>Authentication</p>
                 <p className='footer-item-text'>API Reference</p>
                 <p className='footer-item-text'>Support</p>
-                <p className='footer-item-text'>Open source</p>
+                <p className='footer-item-text'><a href='https://github.com/Idera-oluwa/my-portfolio-website'>Open source</a></p>
             </div>
         </div>
         <p className='footer-text'>© {new Date().getFullYear()}  All rights reserved</p>

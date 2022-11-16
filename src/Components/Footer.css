@@ -39,6 +39,7 @@ max-width: 1170px;
 }
 .footer-item-text{
     font-size: 0.4cm;
+    cursor: pointer;
 }
 @media screen and (max-width:500px){
     .footer-item-text{
