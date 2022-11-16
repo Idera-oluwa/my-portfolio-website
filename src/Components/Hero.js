@@ -26,7 +26,7 @@ const Hero = () => {
                    <a href='https://github.com/Idera-oluwa' target="_blank" rel="noreferrer"> <div className='hero-card'>
                    <FaGithub className='hero-card-icon' />
                    </div></a>
-                   <a href='https://app.slack.com/client/T03R4FFLY4F/D03RCNQEPML/rimeto_profile/U03RKB8FBDG?cdn_fallback=1'
+                   <a href='https://styleyteam.slack.com/team/U03RKB8FBDG'
                    target="_blank" rel="noreferrer"
                    ><div className='hero-card'>
                    <img src='Images/Slack logo.png' alt='' className='hero-card-img'/>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
-import {FiFacebook,FiTwitter,FiLinkedin} from 'react-icons/fi';
+import {FiFacebook,FiLinkedin} from 'react-icons/fi';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
     return (
@@ -17,15 +18,15 @@ const Contact = () => {
                 <p className='contact-form-info-text'>Email ideraoluwaisa29@gmail.com</p>
                 <p className='contact-form-info-text'>Find Me On</p>
                 <div className='hero-cards contact-cards'>
-                     <div className='hero-card'>
+                <a href='https://www.facebook.com/ideraoluwa.isa.1' target="_blank" rel="noreferrer"><div className='hero-card'>
                      <FiFacebook className='hero-card-icon'/>
-                     </div>
-                     <div className='hero-card'>
-                     <FiTwitter className='hero-card-icon'/>
-                     </div>
-                     <div className='hero-card'>
+                     </div></a>
+                     <a href='https://wa.me/2349156536793' target="_blank" rel="noreferrer"><div className='hero-card'>
+                     <FaWhatsapp className='hero-card-icon'/>
+                     </div></a>
+                     <a href='https://www.linkedin.com/in/zainab-isa-a33066211' target="_blank" rel="noreferrer"><div className='hero-card'>
                      <FiLinkedin className='hero-card-icon'/>
-                     </div>
+                     </div></a>
                    </div>
                 </div>
                 <form className='form-container' id='contact'

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
-import {FiFacebook,FiTwitter,FiLinkedin} from 'react-icons/fi';
+import {FiFacebook,FiLinkedin} from 'react-icons/fi';
+import { FaWhatsapp } from 'react-icons/fa';
 import {Link} from 'react-scroll'
 
 const Footer = () => {
@@ -13,15 +14,15 @@ const Footer = () => {
                 <h3>DERAH</h3>
             </div>
             <div className='hero-cards footer-cards'>
-                     <div className='hero-card'>
+            <a href='https://www.facebook.com/ideraoluwa.isa.1' target="_blank" rel="noreferrer"><div className='hero-card'>
                      <FiFacebook className='hero-card-icon'/>
-                     </div>
-                     <div className='hero-card'>
-                     <FiTwitter className='hero-card-icon'/>
-                     </div>
-                     <div className='hero-card'>
+                     </div></a>
+                     <a href='https://wa.me/2349156536793' target="_blank" rel="noreferrer"><div className='hero-card'>
+                     <FaWhatsapp className='hero-card-icon'/>
+                     </div></a>
+                     <a href='https://www.linkedin.com/in/zainab-isa-a33066211' target="_blank" rel="noreferrer"> <div className='hero-card'>
                      <FiLinkedin className='hero-card-icon'/>
-                     </div>
+                     </div></a>
                    </div>
             </div>
             <div className='grid'>
