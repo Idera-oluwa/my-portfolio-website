@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import {FiFacebook,FiTwitter,FiLinkedin} from 'react-icons/fi';
+import {FiFacebook,FiTwitter,FiLinkedin, FiDownload} from 'react-icons/fi';
 import {FaLinkedinIn,FaGithub} from 'react-icons/fa'
 
 const Hero = () => {
@@ -15,20 +15,22 @@ const Hero = () => {
            <div className='hero-cards-total-container'>
                <div className='hero-cards-container'>
                    <h3 className='hero-cards-text'>DOWNLOAD RESUME</h3>
-                   <button className='download-resume'>DOWNLOAD</button>
+                   <button className='download-resume'>DOWNLOAD <FiDownload/></button>
                    </div>
                <div className='hero-cards-container'>
                    <h3  className='hero-cards-text'>BEST SKILL ON</h3>
                    <div className='hero-cards'>
-                   <div className='hero-card'>
+                  <a href='https://www.linkedin.com/in/zainab-isa-a33066211' target="_blank" rel="noreferrer"> <div className='hero-card'>
                    <FaLinkedinIn className='hero-card-icon pink-icon' />
-                   </div>
-                   <div className='hero-card'>
+                   </div></a>
+                   <a href='https://github.com/Idera-oluwa' target="_blank" rel="noreferrer"> <div className='hero-card'>
                    <FaGithub className='hero-card-icon' />
-                   </div>
-                   <div className='hero-card'>
+                   </div></a>
+                   <a href='https://app.slack.com/client/T03R4FFLY4F/D03RCNQEPML/rimeto_profile/U03RKB8FBDG?cdn_fallback=1'
+                   target="_blank" rel="noreferrer"
+                   ><div className='hero-card'>
                    <img src='Images/Slack logo.png' alt='' className='hero-card-img'/>
-                   </div>
+                   </div></a>
                    </div>
                </div>
            </div>
