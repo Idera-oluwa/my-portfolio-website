@@ -15,7 +15,7 @@ const Hero = () => {
            <div className='hero-cards-total-container'>
                <div className='hero-cards-container'>
                    <h3 className='hero-cards-text'>DOWNLOAD RESUME</h3>
-                   <button className='download-resume'>DOWNLOAD <FiDownload/></button>
+                   <a href='Files/Isa Zainab Resume.pdf' download><button className='download-resume'>DOWNLOAD <FiDownload/></button></a>
                    </div>
                <div className='hero-cards-container'>
                    <h3  className='hero-cards-text'>BEST SKILL ON</h3>
