@@ -47,6 +47,14 @@ export const portfolioData=[
         title:'E-commerce Website Application'
     },
     {
+        id:7,
+        img:'Images/Wysoft Website.png',
+        text:'Visit website',
+        likes:'278',
+        link:'https://wysoft-ng.com/',
+        title:'Wysoft Business Website'
+    },
+    {
         id:3,
         img:'Images/konga-landing-page.png',
         text:'visit website',
